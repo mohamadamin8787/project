@@ -50,6 +50,7 @@ lst_box.place(y=100,x=70)
 
 lst_box.insert(0,'python')
 lst_box.insert(1,'c++')
+lst_box.indert(2 , 'c#')
 
 btn_insert = Button(win,text='insert',width=7,border=8,command=insert)
 btn_insert.place(y=300,x=0)
@@ -62,6 +63,8 @@ btn_delete.place(y=300,x=140)
 
 btn_fetch = Button(win,text='fetch',width=7,border=8,command=fetch)
 btn_fetch.place(y=300,x=210)
+
+print('********************************')
 
 
 
